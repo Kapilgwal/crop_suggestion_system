@@ -26,7 +26,7 @@ humidity = st.number_input('humidity')
 ph = st.number_input('ph')
 
 # rainfall
-rainfall = st.number_input('rainfall in mm')
+rainfall = st.number_input('rainfall in cm')
 
 if st.button("Predict"):
     query = np.array([[nitrogen,phosphorus,potassium,tempreature,humidity,ph,rainfall]])
